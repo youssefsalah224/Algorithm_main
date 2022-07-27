@@ -1,0 +1,7 @@
+assuming we have a tree version of each game 
+and we have two tables with game id, statue and table with manufactory data we need to join both tables by the Id
+First, we are going to store every version of a game’s statue in the array with its serial number 
+then we store every game manufactory data and id in hash table
+we are going check about each game statue with the first false statue by for loop get its id  
+then search about its Id(serial number) in the hash table O(n)
+then get the first manufactory data with false statue

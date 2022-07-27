@@ -1,0 +1,6 @@
+we have an employee’s table which have the ID and transaction table which have the foreign key
+1-First we will insert the employees table in hash table 
+2-Then we will ably a for loop on the transition table by the Id(the foreign key) -- O(m)
+3-Then We will search about id in the hash table --O(1)
+So that the total order is now linear—O(m)
+ 
